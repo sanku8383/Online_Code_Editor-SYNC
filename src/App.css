@@ -1,0 +1,65 @@
+pre {
+  padding: 10px;
+  overflow: auto;
+  line-height: 1.45;
+  background-color: #789bb9;
+  border-radius: 6px;
+}
+
+button.btn.btn-primary{
+  border: 1px solid black;
+  color: rgb(14, 13, 12);
+  background-color: antiquewhite;
+}
+
+.btn-primary:hover {
+  background-color: rgb(185, 160, 209);
+}
+
+.pane.pane-top {
+  background-color: #202429;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: center;
+}
+
+.editor-lang {
+  padding: 10px;
+}
+
+.editor-text {
+  text-align: center;
+  background-color: rgb(49 48 51 / 87%);
+  color: rgba(250, 230, 194, 0.972);
+  font-size: 1.2em;
+  line-height: 2;
+  justify-content: center;
+}
+
+.output-pane {
+  left: 0;
+  border: 0px solid;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.footer {
+  background-color: rgb(4, 11, 15);
+  position: fixed;
+  bottom: 0;
+  height: 36px;
+  color: rgb(246, 225, 188);
+  text-align: center;
+  line-height: 2.5;
+  justify-content: center;
+}
+h2,h5{
+  color: red;
+  font-size: medium;
+  font-weight: 400;
+  padding: 5px;
+  justify-content: center;
+}
